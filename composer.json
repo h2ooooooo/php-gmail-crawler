@@ -1,0 +1,20 @@
+{
+  "name": "jalsoedesign/gmail-crawler",
+  "description": "An HTML crawler with triggers for gmail using php-html-parser",
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "google/apiclient": "^2.2",
+    "jalsoedesign/persistent-oauth-google-client": "*",
+    "paquettg/php-html-parser": "^1.7"
+  },
+  "require-dev": {
+    "jalsoedesign/climax": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "jalsoedesign\\GmailCrawler\\": "src/"
+    }
+  }
+}
